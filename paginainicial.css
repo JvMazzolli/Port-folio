@@ -1,0 +1,101 @@
+button
+{
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    border-color: rgb(197, 32, 20);
+    background-color: rgba(54, 38, 38, 0.719);
+    border-top-left-radius: 5px;   
+}
+body 
+{
+    font-family: Arial, sans-serif;
+    margin: 2px;
+    padding: 2px;
+    border: rgb(197, 32, 20);
+    box-sizing: border-box;
+    background-color: rgb(197, 32, 20);
+}
+header
+{
+    background-color: #333;
+    color: white;
+    padding: 297px;
+    text-align: center;
+    flex-direction: column;
+    display:flex 
+}
+header h1 
+{
+    margin: 0;
+}
+nav ul 
+{
+    list-style: lower-alpha;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+.project {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333; 
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin: 2px;
+    border: rgb(197, 32, 20);
+    flex-direction: column;
+    display:flex
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 0.5rem;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 0.5rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}

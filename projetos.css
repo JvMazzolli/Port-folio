@@ -1,0 +1,56 @@
+head h1
+{
+    text-align: center;
+    animation-name: inherit;
+}
+body h1
+{
+  color: white;
+  animation: backwards;
+  font-style: initial;
+  text-align: center;
+ 
+
+
+ 
+}
+body
+{
+    background-color: #333;
+
+}
+button
+{
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    border-color: rgb(197, 32, 20);
+    background-color: rgba(54, 38, 38, 0.719);
+    color: white;
+    position: relative;  
+}
+div
+{
+    background-color: #474545;
+    border-color: rgb(197, 32, 20);
+    border-style: ridge;
+    text-align: center;
+    padding: auto;
+    margin: 20px;
+    color: white;
+}
+nav ul 
+{
+    list-style: lower-alpha;
+    padding: 0;
+    object-position: center;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+    object-position: center;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    object-position: center;
+}
